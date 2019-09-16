@@ -1,4 +1,4 @@
-package es.upm.miw.iwvg.ecosystem.api;
+package es.upm.miw.iwvg.ecosystem.api.api;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

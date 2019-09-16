@@ -1,6 +1,6 @@
-package es.upm.miw.iwvg.ecosystem;
+package es.upm.miw.iwvg.ecosystem.api;
 
-import es.upm.miw.iwvg.ecosystem.api.Badge;
+import es.upm.miw.iwvg.ecosystem.api.api.Badge;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

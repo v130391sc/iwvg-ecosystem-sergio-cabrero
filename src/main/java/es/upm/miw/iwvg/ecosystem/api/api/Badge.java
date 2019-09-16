@@ -1,4 +1,4 @@
-package es.upm.miw.iwvg.ecosystem.api;
+package es.upm.miw.iwvg.ecosystem.api.api;
 
 public class Badge {
 

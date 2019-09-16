@@ -1,6 +1,6 @@
-package es.upm.miw.iwvg.ecosystem;
+package es.upm.miw.iwvg.ecosystem.api;
 
-import es.upm.miw.iwvg.ecosystem.api.SystemResource;
+import es.upm.miw.iwvg.ecosystem.api.api.SystemResource;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
