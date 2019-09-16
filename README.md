@@ -1,8 +1,14 @@
-## [Máster en Ingeniería Web por la Universidad Politécnica de Madrid (miw-upm)](http://miw.etsisi.upm.es)
-## Plantilla para la práctica de Ecosistema (IWVG-ecosystem)
-> Plantilla con Spring básico (API, test) 
+## Práctica ecosistema [Sergio Cabrero Fernández]
+> Configuración de un entorno automatizado de trabajo (Control de versiones, Integración continua, control de calidad de código, despliegue, etc.)
 
-## Ecosistema
+[![GitHub](https://img.shields.io/github/license/v130391sc/iwvg-ecosystem-sergio-cabrero?color=informational)](https://github.com/v130391sc/iwvg-ecosystem-sergio-cabrero/blob/master/LICENSE.md)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/v130391sc/iwvg-ecosystem-sergio-cabrero?color=informational)](https://github.com/v130391sc/iwvg-ecosystem-sergio-cabrero/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/v130391sc/iwvg-ecosystem-sergio-cabrero?color=informational)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/v130391sc/iwvg-ecosystem-sergio-cabrero)
+![GitHub issues](https://img.shields.io/github/issues/v130391sc/iwvg-ecosystem-sergio-cabrero?color=important)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/v130391sc/iwvg-ecosystem-sergio-cabrero?color=informational)
+
+### Ecosistema
 * Java
 * Maven
 * Logs
