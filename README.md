@@ -12,7 +12,7 @@
 
 [![Build Status](https://travis-ci.org/v130391sc/iwvg-ecosystem-sergio-cabrero.svg?branch=develop)](https://travis-ci.org/v130391sc/iwvg-ecosystem-sergio-cabrero)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-ecosystem-sergio-cabrero&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-ecosystem-sergio-cabrero)
-
+[![BCH compliance](https://bettercodehub.com/edge/badge/v130391sc/iwvg-ecosystem-sergio-cabrero?branch=develop)](https://bettercodehub.com/)
 
 ### Ecosistema
 * Java
