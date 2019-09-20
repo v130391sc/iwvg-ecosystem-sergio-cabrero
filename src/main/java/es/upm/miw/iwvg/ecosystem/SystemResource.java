@@ -1,4 +1,4 @@
-package es.upm.miw.iwvg.ecosystem.api.api;
+package es.upm.miw.iwvg.ecosystem;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
