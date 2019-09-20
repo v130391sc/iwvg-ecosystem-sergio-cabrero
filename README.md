@@ -8,6 +8,12 @@
 ![GitHub issues](https://img.shields.io/github/issues/v130391sc/iwvg-ecosystem-sergio-cabrero?color=important)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/v130391sc/iwvg-ecosystem-sergio-cabrero?color=informational)
 
+##Estado del código
+
+[![Build Status](https://travis-ci.org/v130391sc/iwvg-ecosystem-sergio-cabrero.svg?branch=master)](https://travis-ci.org/v130391sc/iwvg-ecosystem-sergio-cabrero)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-ecosystem-sergio-cabrero&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-ecosystem-sergio-cabrero)
+
+
 ### Ecosistema
 * Java
 * Maven
