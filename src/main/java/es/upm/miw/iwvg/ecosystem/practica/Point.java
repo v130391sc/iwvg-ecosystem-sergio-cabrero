@@ -33,7 +33,7 @@ public class Point {
     public void translateOrigin(Point origin) {
         this.x -= origin.getX();
         this.y -= origin.getY();
-        this.z -= origin.getY();
+        this.z -= origin.getZ();
     }
 
     public int getX() {
