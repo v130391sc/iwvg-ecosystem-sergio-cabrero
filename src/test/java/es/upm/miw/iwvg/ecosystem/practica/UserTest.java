@@ -11,7 +11,7 @@ class UserTest {
 
     @BeforeEach
     void before() {
-        user = new User(1, "sergio", "cabrero");
+        user = new User(1, "sergio", "cabrero", 24);
     }
 
     @Test
@@ -19,6 +19,7 @@ class UserTest {
         assertEquals(1, user.getNumber());
         assertEquals("Sergio", user.getName());
         assertEquals("Cabrero", user.getFamilyName());
+        assertEquals(24, user.getAge());
     }
 
     @Test
@@ -29,6 +30,11 @@ class UserTest {
     @Test
     void testInitials(){
         assertEquals("S.", user.initials());
+    }
+
+    @Test
+    void testIsAdult(){
+        assertEquals(true, user.isAdult());
     }
 
 }
