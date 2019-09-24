@@ -29,6 +29,10 @@ public class User {
         return this.name.substring(0, 1) + ".";
     }
 
+    public boolean isAdult(){
+        return this.age > 18;
+    }
+
     public int getNumber() {
         return this.number;
     }

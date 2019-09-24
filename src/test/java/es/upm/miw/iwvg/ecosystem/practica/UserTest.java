@@ -32,4 +32,9 @@ class UserTest {
         assertEquals("S.", user.initials());
     }
 
+    @Test
+    void testIsAdult(){
+        assertEquals(true, user.isAdult());
+    }
+
 }
