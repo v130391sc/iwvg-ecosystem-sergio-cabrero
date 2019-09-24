@@ -45,6 +45,10 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
+    public boolean isHigher(Fraction fraction){
+        return ((double) this.numerator / this.denominator) > ((double) fraction.numerator / fraction.denominator);
+    }
+
     public int getNumerator() {
         return numerator;
     }

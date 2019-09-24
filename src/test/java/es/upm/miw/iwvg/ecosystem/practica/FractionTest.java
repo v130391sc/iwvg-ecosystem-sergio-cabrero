@@ -32,4 +32,10 @@ public class FractionTest {
         assertEquals(1.5, fraction.decimal());
     }
 
+    @Test
+    void testIsHigher(){
+        Fraction fractionAux = new Fraction(5,2);
+        assertEquals(false, fraction.isHigher(fractionAux));
+    }
+
 }
