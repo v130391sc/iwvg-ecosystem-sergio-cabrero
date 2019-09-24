@@ -4,13 +4,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FractionTest {
     Fraction fraction;
 
+    Fraction fractionAux;
+
     @BeforeEach
     void before() {
         fraction = new Fraction(4, 2);
+        fractionAux = new Fraction(5,2);
     }
 
     @Test
@@ -34,8 +38,14 @@ public class FractionTest {
 
     @Test
     void testIsHigher(){
-        Fraction fractionAux = new Fraction(5,2);
         assertEquals(false, fraction.isHigher(fractionAux));
+    }
+
+    @Test
+    void testMultiplication(){
+        Fraction result = fraction.multiplication(fractionAux);
+        assertEquals(20, result.getNumerator());
+        assertEquals(4, result.getDenominator());
     }
 
 }

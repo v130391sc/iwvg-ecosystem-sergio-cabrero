@@ -49,6 +49,10 @@ public class Fraction {
         return ((double) this.numerator / this.denominator) > ((double) fraction.numerator / fraction.denominator);
     }
 
+    public Fraction multiplication(Fraction fraction){
+        return new Fraction(this.numerator * fraction.getNumerator(), this.denominator * fraction.getDenominator());
+    }
+
     public int getNumerator() {
         return numerator;
     }
