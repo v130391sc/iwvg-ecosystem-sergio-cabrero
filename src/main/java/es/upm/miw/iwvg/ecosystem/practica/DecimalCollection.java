@@ -46,4 +46,8 @@ public class DecimalCollection {
         return Collections.max(this.collection);
     }
 
+    public void clear() {
+        this.collection.clear();
+    }
+
 }
