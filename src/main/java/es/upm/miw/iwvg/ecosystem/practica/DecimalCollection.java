@@ -46,4 +46,12 @@ public class DecimalCollection {
         return Collections.max(this.collection);
     }
 
+    public void clear() {
+        this.collection.clear();
+    }
+
+    public boolean contains(Double elem){
+        return this.collection.contains(elem);
+    }
+
 }
