@@ -50,4 +50,8 @@ public class DecimalCollection {
         this.collection.clear();
     }
 
+    public boolean contains(Double elem){
+        return this.collection.contains(elem);
+    }
+
 }

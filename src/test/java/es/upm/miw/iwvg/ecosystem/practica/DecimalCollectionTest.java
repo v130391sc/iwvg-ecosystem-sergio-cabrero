@@ -56,4 +56,9 @@ class DecimalCollectionTest {
         this.decimalCollection.clear();
         assertEquals( 0, this.decimalCollection.size());
     }
+
+    @Test
+    void testContains(){
+        assertEquals(true, this.decimalCollection.contains(3.0));
+    }
 }
