@@ -8,10 +8,13 @@ public class User {
 
     private String familyName;
 
-    public User(int number, String name, String familyName) {
+    private int age;
+
+    public User(int number, String name, String familyName, int age) {
         this.number = number;
         this.name = this.format(name);
         this.familyName = this.format(familyName);
+        this.age = age;
     }
 
     private String format(String string) {
@@ -36,5 +39,9 @@ public class User {
 
     public String getFamilyName() {
         return this.familyName;
+    }
+
+    public int getAge() {
+        return age;
     }
 }
