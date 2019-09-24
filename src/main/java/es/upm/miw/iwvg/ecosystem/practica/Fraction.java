@@ -45,6 +45,18 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
+    public boolean isHigher(Fraction fraction){
+        return ((double) this.numerator / this.denominator) > ((double) fraction.numerator / fraction.denominator);
+    }
+
+    public Fraction multiplication(Fraction fraction){
+        return new Fraction(this.numerator * fraction.getNumerator(), this.denominator * fraction.getDenominator());
+    }
+
+    public Fraction division(Fraction fraction){
+        return new Fraction(this.numerator * fraction.getDenominator(), this.denominator * fraction.getNumerator());
+    }
+
     public int getNumerator() {
         return numerator;
     }
