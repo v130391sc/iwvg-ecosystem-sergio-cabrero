@@ -47,6 +47,12 @@ class PointTest {
     }
 
     @Test
+    void testDistance(){
+        Point pointAux = new Point(2,3,6);
+        assertEquals(2, point.distance(pointAux));
+    }
+
+    @Test
     void testTranslateOrigin() {
         this.point.translateOrigin(new Point(1, 1, 1));
         assertEquals(1, point.getX());
