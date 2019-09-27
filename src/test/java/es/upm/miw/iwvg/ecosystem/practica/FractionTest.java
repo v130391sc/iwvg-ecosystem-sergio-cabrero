@@ -48,11 +48,4 @@ public class FractionTest {
         assertEquals(4, result.getDenominator());
     }
 
-    @Test
-    void testDivision(){
-        Fraction result = fraction.division(fractionAux);
-        assertEquals(8, result.getNumerator());
-        assertEquals(10, result.getDenominator());
-    }
-
 }
