@@ -48,8 +48,8 @@ class PointTest {
 
     @Test
     void testDistance(){
-        Point pointAux = new Point(2,3,6);
-        assertEquals(2, point.distance(pointAux));
+        Point pointAux = new Point(2,4,7);
+        assertEquals(3.1622776601683795, point.distance(pointAux));
     }
 
     @Test
